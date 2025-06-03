@@ -9,7 +9,6 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
 @Service
-@Slf4j
 public class UserService {
     private static final Logger log = LoggerFactory.getLogger(UserService.class);
     private final ApplicationEventPublisher eventPublisher;

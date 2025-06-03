@@ -9,7 +9,6 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 @Component
-@Slf4j
 public class NotificationService {
 
     private static final Logger log = LoggerFactory.getLogger(NotificationService.class);
